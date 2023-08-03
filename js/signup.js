@@ -16,6 +16,7 @@ if(users.find((userz)=>userz.email==email.value)){
     alert("user already exist")
 }else{
     users.push(user);
+    alert("user successfuly created!")
     const stringify=JSON.stringify(users)
     localStorage.setItem("users",stringify)
     console.log(localStorage)

@@ -1,0 +1,101 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.admin-dashboard {
+  display: flex;
+  gap: 1.5rem;
+  background-color: #eee;
+  width: 100%;
+  height: 100vh;
+}
+.aside {
+  background-color: white;
+
+  width: 20%;
+
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.344);
+}
+nav {
+  background-color: white;
+  padding: 3rem;
+  width: 100%;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.344);
+}
+.main-container {
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.main-content {
+  background-color: white;
+  padding: 3rem;
+  height: 80vh;
+}
+.logo {
+  padding: 1.5rem;
+}
+.logo h2 {
+  font-size: 3.2rem;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 3rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.487);
+}
+.dashboard {
+  background-color: rgba(0, 0, 255, 0.489);
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+i {
+  font-size: 1.8rem;
+}
+.fa-windows {
+  color: white;
+}
+p {
+  font-size: 1.8rem;
+  color: white;
+}
+ul {
+  padding: 1.5rem;
+  list-style-type: none;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+li i {
+  font-size: 1.8rem;
+}
+li a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  text-align: center;
+}

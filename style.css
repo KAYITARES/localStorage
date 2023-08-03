@@ -1,0 +1,116 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  background: white;
+  box-sizing: 1px 3px 3px rgba(0, 0, 0, 0.404);
+  padding: 3rem;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  list-style-type: none;
+  gap: 3rem;
+}
+.nav-link:link,
+.nav-link:visited {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.home {
+  height: 70vh;
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(0, 0, 255, 0.432),
+      rgba(0, 128, 0, 0.404)
+    ),
+    url("https://images.pexels.com/photos/768474/pexels-photo-768474.jpeg?");
+
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  position: relative;
+}
+.home h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  width: 100%;
+
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4.8rem;
+}
+form {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  text-align: center;
+  width: 35%;
+  background-color: white;
+  transform: translate(-50%, 0%);
+  padding: 3rem;
+  border-radius: 0.8rem;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.384);
+}
+h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+label {
+  font-size: 1.8rem;
+  display: block;
+  text-align: left;
+}
+input {
+  padding: 0.5rem;
+  width: 100%;
+}
+.group {
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  border-radius: 0.8rem;
+  display: block;
+  width: 100%;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  overflow: hidden;
+
+  background-color: rgba(0, 0, 255, 0.449);
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.387);
+}
+.btn:active {
+  transform: translateY(-2px);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.192);
+}
